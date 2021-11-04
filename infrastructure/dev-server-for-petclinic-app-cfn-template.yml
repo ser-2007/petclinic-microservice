@@ -93,7 +93,11 @@ Resources:
             yum install git -y
             yum install java-11-amazon-corretto -y
             git clone https://github.com/clarusway/petclinic-microservices-with-db.git
+<<<<<<< HEAD
             cd petclinic-microservices-with-db
+=======
+            cd petclinic-microservices-with-d
+>>>>>>> 3f590c114c53098aad9c3f6a2116dbeaa557e530
             git fetch
             git checkout dev
   PetclinicServer:
